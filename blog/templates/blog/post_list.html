@@ -11,6 +11,7 @@
 			<h1><a href="">Django Girls Blog</a></h1>
 		</div>
 
+		{% for post in posts %}
 			<div>
 				<p>published: 16.04.2018, 12:14</p>
 				<h2><a href="">My first post</a></h2>
@@ -22,5 +23,6 @@
 				<h2><a href="">My second post</a></h2>
 				<p>Rights and Consistency                 To many of its critics, reverse discrimination was simply incoherent. When “the employers and the schools favor women and blacks,” objected Lisa Newton, they commit the same injustice perpetrated by Jim Crow discrimination. “Just as the previous discrimination did, this reverse discrimination violates the public equality which defines citizenship” (Newton 1973, 310).[5]</p>
 			</div>
+			{% endfor %}
 	</body>
 </html>
