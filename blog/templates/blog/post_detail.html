@@ -1,0 +1,19 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+	<div class="post">
+		{% if post.published_date %}
+			<div class="date">
+				<p>published: 16.04.2018, 12:14</p>
+			</div>
+		{% endif %}
+		<h2><a href="">My first post</a></h2>
+		<p> Postcolonial education may have helped emancipate the African mind from the metal chains of traditional worship and superstitious beliefs and practices. It has provided us with impressive degrees and diplomas but that education has not succeeded in liberating us from the metal chains of secularism and selfism                         - Samuel Koranteng Pipim, PhD. </p>
+	</div>
+
+	<div>
+		<p>published: 16.04.2018, 12:14</p>
+		<h3><a href="">My second post</a></h3>
+		<p>Rights and Consistency                 To many of its critics, reverse discrimination was simply incoherent. When “the employers and the schools favor women and blacks,” objected Lisa Newton, they commit the same injustice perpetrated by Jim Crow discrimination. “Just as the previous discrimination did, this reverse discrimination violates the public equality which defines citizenship” (Newton 1973, 310).[5]</p>
+	</div>
+{% endblock %}
