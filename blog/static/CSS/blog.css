@@ -1,6 +1,6 @@
 
 h1 a {
-	color: #00FFFF;
+	color: #FFD700;
 	font-family: 'Lato';
 }
 body {
@@ -45,5 +45,5 @@ margin-right: 20px;
 margin-bottom: 70px;
 }
 .post h1 a, .post h1 a:visited {
-color: #FF00FF;
+color: #FFD700;
 }
