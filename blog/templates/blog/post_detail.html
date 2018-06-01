@@ -6,7 +6,11 @@
 			<div class="date">
 				<p>published: 16.04.2018, 12:14</p>
 			</div>
-		{% endif %}	
+		{% endif %}
+		{% if user.is_authenticated %}
+		<a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}"><span class="glyphicon glyphicon-pencil"></
+span></a>
+		{% endif %}
 		<h2><a href="">My first post</a></h2>
 		<p> Postcolonial education may have helped emancipate the African mind from the metal chains of traditional worship and superstitious beliefs and practices. It has provided us with impressive degrees and diplomas but that education has not succeeded in liberating us from the metal chains of secularism and selfism                         - Samuel Koranteng Pipim, PhD. </p>
 	</div>
